@@ -29,5 +29,6 @@ RUN npm install hubot-slack --save && npm install
 RUN npm install hubot-circleci --save && npm install
 
 COPY external-scripts.json /hubot/
+RUN rm -rf /hubot/hubot-scripts.json
 
 CMD ["bin/hubot", "--adapter", "slack"]
