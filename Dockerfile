@@ -26,5 +26,8 @@ RUN yo hubot --owner="Ray NCF" --name="Ray NCF" --description="Ray NCF Hubot" --
 
 # Add here all the hubot plugins
 RUN npm install hubot-slack --save && npm install
+RUN npm install hubot-circleci --save && npm install
+
+COPY external-scripts.json /hubot/
 
 CMD ["bin/hubot", "--adapter", "slack"]

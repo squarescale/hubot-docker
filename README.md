@@ -5,9 +5,10 @@
 This is using Ubuntu 16.04 LTS as base image.
 Redis is installed and `hubot-redis-brain` is using it.
 
-## Plugins: 
+## Plugins:
 
-- hubot-slack
+- [hubot-slack](https://github.com/slackhq/hubot-slack)
+- [hubot-circleci](https://github.com/hubot-scripts/hubot-circleci)
 
 ## Build
 
@@ -16,7 +17,7 @@ Redis is installed and `hubot-redis-brain` is using it.
 ## Run
 
 ```shell
-docker run -d -e HUBOT_SLACK_TOKEN=<TOKEN> hubot
+docker run -d -e HUBOT_SLACK_TOKEN=<TOKEN> -e HUBOT_CIRCLECI_TOKEN=<CIRCLECI_TOKEN> hubot
 ```
 
 ## Add new plugins
