@@ -22,7 +22,7 @@ RUN	useradd -d /hubot -m -s /bin/bash -U hubot
 USER	hubot
 WORKDIR /hubot
 
-RUN yo hubot --owner="Ray NCF" --name="Ray NCF" --description="Ray NCF Hubot" --defaults
+RUN yo hubot --owner="Ray NCF <ray.ncf@squarescale.com>" --name="ray" --description="Ray NCF Hubot" --defaults
 
 # Add here all the hubot plugins
 RUN npm install hubot-slack --save && npm install
