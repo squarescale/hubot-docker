@@ -1,5 +1,7 @@
 # Hubot Docker
 
+[![Circle CI](https://circleci.com/gh/squarescale/hubot-docker.svg?style=shield)](https://circleci.com/gh/squarescale/hubot-docker)
+
 This is using Ubuntu 16.04 LTS as base image.
 Redis is installed and `hubot-redis-brain` is using it.
 
