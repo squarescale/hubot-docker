@@ -22,3 +22,8 @@ Note that the old hubot-scripts.json file [will be deprecated in 3.0](https://gi
 ## Slack
 
 `/invite bot_name`
+
+## CI
+
+* [CircleCI Project URL](https://circleci.com/gh/squarescale/hubot-docker/)
+* [CircleCI Docker Documentation](https://circleci.com/docs/docker/)
