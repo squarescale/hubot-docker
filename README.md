@@ -17,7 +17,7 @@ Redis is installed and `hubot-redis-brain` is using it.
 ## Run
 
 ```shell
-docker run -d -e HUBOT_SLACK_TOKEN=<TOKEN> -e HUBOT_CIRCLECI_TOKEN=<CIRCLECI_TOKEN> hubot
+docker run -d -e HUBOT_SLACK_TOKEN=<TOKEN> -e HUBOT_CIRCLECI_TOKEN=<CIRCLECI_TOKEN> squarescale/hubot
 ```
 
 ## Add new plugins
