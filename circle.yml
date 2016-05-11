@@ -7,7 +7,7 @@ dependencies:
     - make build
 test:
   override:
-    - docker run -d hubot
+    - docker run -d squarescale/hubot
 deployment:
   hub:
     branch: master
