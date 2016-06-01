@@ -28,6 +28,7 @@ RUN yo hubot --owner="Ray NCF <ray.ncf@squarescale.com>" --name="ray" --descript
 RUN npm install hubot-slack --save && npm install
 RUN npm install hubot-circleci --save && npm install
 RUN npm install hubot-http-status --save && npm install
+RUN npm install hubot-semaphoreapp --save && npm install
 
 COPY external-scripts.json /hubot/
 RUN rm -rf /hubot/hubot-scripts.json

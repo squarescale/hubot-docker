@@ -10,5 +10,6 @@
   "hubot-rules",
   "hubot-shipit",
   "hubot-circleci",
-  "hubot-http-status"
+  "hubot-http-status",
+  "hubot-semaphoreapp"
 ]

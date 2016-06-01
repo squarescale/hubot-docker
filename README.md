@@ -9,6 +9,7 @@ Redis is installed and `hubot-redis-brain` is using it.
 
 - [hubot-slack](https://github.com/slackhq/hubot-slack)
 - [hubot-circleci](https://github.com/hubot-scripts/hubot-circleci)
+- [hubot-semaphoreapp](https://github.com/ben/hubot-semaphoreapp)
 
 ## Build
 
@@ -17,7 +18,7 @@ Redis is installed and `hubot-redis-brain` is using it.
 ## Run
 
 ```shell
-docker run -d -e HUBOT_SLACK_TOKEN=<TOKEN> -e HUBOT_CIRCLECI_TOKEN=<CIRCLECI_TOKEN> squarescale/hubot
+docker run -d -e HUBOT_SLACK_TOKEN=<TOKEN> -e HUBOT_CIRCLECI_TOKEN=<CIRCLECI_TOKEN> -e HUBOT_SEMAPHOREAPP_AUTH_TOKEN=<token> -e HUBOT_SEMAPHOREAPP_DEPLOY=true squarescale/hubot
 ```
 
 ## Add new plugins
