@@ -1,6 +1,6 @@
 FROM ubuntu:16.04
 MAINTAINER Stephane Jourdan <sjourdan@greenalto.com>
-ENV REFRESHED_AT 2016-08-28
+ENV REFRESHED_AT 2016-09-12
 
 RUN apt-get update
 RUN apt-get -yqq install redis-server nodejs npm && \
